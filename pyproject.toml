@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "purr"
+version = "0.1.0"
+description = ""
+authors = ["Ichim8 <155743208+Ichim9@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+toml = "^0.10.2"
+gitpython = "^3.1.43"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
